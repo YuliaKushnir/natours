@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: natours
+    envVars:
+      - key: PORT
+        value: 3000
