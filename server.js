@@ -17,7 +17,7 @@ mongoose
   .connect(DB, {
   useNewUrlParser:true,
   useCreateIndex:true,
-  useFindAndModify:false
+  // useFindAndModify:false
 }).then(() => {
   console.log("DB connection successful")
 }).catch(err => console.log('ERRORR'));
